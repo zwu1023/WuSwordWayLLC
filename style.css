@@ -1,0 +1,174 @@
+/* 全局基础设置 */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333333;
+    line-height: 1.8;
+    background-color: #ffffff;
+}
+
+.container {
+    width: 85%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/* 导航栏：沉稳深蓝与现代感 */
+header {
+    background-color: #0f172a;
+    color: #ffffff;
+    padding: 1.2rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+.logo span {
+    color: #38bdf8;
+}
+
+nav a {
+    color: #cbd5e1;
+    text-decoration: none;
+    margin-left: 2rem;
+    font-size: 0.95rem;
+    transition: color 0.2s;
+}
+
+nav a:hover {
+    color: #ffffff;
+}
+
+.nav-btn {
+    background-color: #2563eb;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    color: #ffffff !important;
+}
+
+/* 首页横幅 (Hero) */
+.hero {
+    background: linear-gradient(rgba(15, 23, 42, 0.85), rgba(15, 23, 42, 0.85)), url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1920&q=80') no-repeat center center/cover;
+    color: #ffffff;
+    text-align: center;
+    padding: 7rem 0;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    max-width: 700px;
+    margin: 0 auto 2.5rem auto;
+    color: #94a3b8;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #2563eb;
+    color: #ffffff;
+    padding: 0.85rem 2rem;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.2s;
+}
+
+.btn:hover {
+    background-color: #1d4ed8;
+}
+
+/* 通用区块设置 */
+.section {
+    padding: 5rem 0;
+    text-align: center;
+}
+
+.bg-light {
+    background-color: #f8fafc;
+}
+
+.section h2 {
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+    color: #0f172a;
+}
+
+.section-desc {
+    max-width: 700px;
+    margin: 0 auto;
+    color: #64748b;
+    font-size: 1.1rem;
+}
+
+/* 业务网格 */
+.grid {
+    display: flex;
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.card {
+    background: #ffffff;
+    padding: 2.5rem 2rem;
+    flex: 1;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+    text-align: left;
+    border-top: 4px solid #2563eb;
+}
+
+.card h3 {
+    margin-top: 0;
+    color: #0f172a;
+    font-size: 1.25rem;
+}
+
+.card p {
+    color: #64748b;
+    font-size: 0.95rem;
+    margin-bottom: 0;
+}
+
+/* 联系我们样式 */
+.contact-container {
+    max-width: 600px;
+}
+
+.contact-info {
+    margin-top: 2rem;
+    background: #ffffff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+    display: inline-block;
+    text-align: left;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* 页脚 */
+footer {
+    background-color: #0f172a;
+    color: #64748b;
+    text-align: center;
+    padding: 2rem 0;
+    font-size: 0.9rem;
+}
